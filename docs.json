@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "linden",
   "name": "Pixel Perfect Documentation",
   "colors": {
     "primary": "#f177a0",
