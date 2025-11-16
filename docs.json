@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "aspen",
+  "name": "Pixel Perfect Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f177a0",
+    "light": "#f177a0",
+    "dark": "#852cba"
   },
-  "favicon": "/favicon.svg",
+  "fonts": {
+    "family": "Inter Tight"
+  },
+  "favicon": "/logo/pixel-perfect.png",
   "navigation": {
     "tabs": [
       {
@@ -98,10 +101,8 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/pixel-perfect.png",
-    "dark": "/logo/pixel-perfect.png"
-  },
+  "logo": "/logo/pixel-perfect.png",
+
   "navbar": {
     "links": [
       {
