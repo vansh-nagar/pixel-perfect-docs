@@ -103,7 +103,7 @@
   },
   "logo": {
     "dark": "/logo/final-dark.png",
-    "light": "/logo/final-dark.png",
+    "light": "/logo/final-light.png",
     "href": "https://pixel-perfect-01.vercel.app/"
   },
 
