@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "maple",
   "name": "Pixel Perfect Documentation",
   "colors": {
-    "primary": "#ffffff",
-    "light": "#ffffff",
-    "dark": "#ffffff"
+    "primary": "#1459c2",
+    "light": "#1459c2",
+    "dark": "#1459c2"
   },
   "fonts": {
     "family": "Inter Tight"
@@ -14,19 +14,19 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Pixel Blocks",
         "groups": [
           {
-            "group": "Button",
-            "pages": ["test-docs"]
+            "group": "Follow for updates",
+            "pages": ["vansh-nagar"]
           },
           {
-            "group": "Background Patterns",
-            "pages": [
-              "backgrounds/pattern-types",
-              "backgrounds/advanced-patterns",
-              "backgrounds/textures"
-            ]
+            "group": "Getting Started",
+            "pages": ["introduction"]
+          },
+          {
+            "group": "Navbar",
+            "pages": ["navbar/animated"]
           },
           {
             "group": "Shaders",
@@ -98,6 +98,10 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Pixel Perfect",
+        "pages": ["changelog"]
       }
     ]
   },
@@ -111,7 +115,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://vanshnagar.me/"
       }
     ],
     "primary": {
