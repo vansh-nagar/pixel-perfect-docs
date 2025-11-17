@@ -1,0 +1,63 @@
+---
+title: Install Motion for React
+description: Install and set up Motion animation library in your React project.
+---
+
+## Prerequisites
+
+- React 16.8 or later
+- Node.js 14 or later
+
+## Installation
+
+Install Motion via npm, yarn, or your preferred package manager:
+
+```bash
+npm install motion
+```
+
+Or with yarn:
+
+```bash
+yarn add motion
+```
+
+## Basic Setup
+
+After installation, you can import Motion in your React components:
+
+```jsx
+import { animate } from "motion";
+```
+
+## Quick Example
+
+Here's a simple example of using Motion in a React component:
+
+```jsx
+import { motion } from "motion/react";
+
+export default function AnimatedBox() {
+  return (
+    <motion.div
+      animate={{ rotate: 360 }}
+      transition={{ duration: 1 }}
+      style={{
+        width: "100px",
+        height: "100px",
+        backgroundColor: "blue",
+      }}
+    />
+  );
+}
+```
+
+## Next Steps
+
+- Check out the [Motion documentation](https://motion.dev/docs)
+- Explore [examples](https://motion.dev/examples)
+- Learn more about [React animations](https://motion.dev/docs/react-animation)
+
+---
+
+Ready to add smooth animations to your Pixel Perfect components! ✧

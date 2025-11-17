@@ -1,0 +1,47 @@
+---
+title: Install Tailwind CSS
+description: Quick setup for Tailwind CSS in your Next.js project.
+---
+
+## Install
+
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss
+```
+
+## Configure PostCSS
+
+Create `postcss.config.mjs`:
+
+```javascript
+export default {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+```
+
+## Import Tailwind
+
+In `app/globals.css`:
+
+```css
+@import "tailwindcss";
+```
+
+## Start using
+
+```bash
+npm run dev
+```
+
+Now use Tailwind classes in your components:
+
+```jsx
+<h1 className="text-3xl font-bold">Hello world!</h1>
+```
+
+## Next Steps
+
+- [Tailwind Documentation](https://tailwindcss.com/docs)
+- [Get Started with Pixel Perfect](/docs/getting-started)

@@ -1,0 +1,43 @@
+---
+title: Install shadcn/ui
+description: Install shadcn/ui components in your Next.js project.
+---
+
+## Initialize
+
+```bash
+pnpm dlx shadcn@latest init
+```
+
+Or with npm:
+
+```bash
+npx shadcn@latest init
+```
+
+## Add Components
+
+```bash
+pnpm dlx shadcn@latest add button
+```
+
+Or with npm:
+
+```bash
+npx shadcn@latest add button
+```
+
+## Usage
+
+```jsx
+import { Button } from "@/components/ui/button";
+
+export default function Home() {
+  return <Button>Click me</Button>;
+}
+```
+
+## Resources
+
+- [shadcn/ui Docs](https://ui.shadcn.com)
+- [Components](https://ui.shadcn.com/docs/components)

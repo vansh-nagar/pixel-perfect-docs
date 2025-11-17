@@ -21,81 +21,17 @@
             "pages": ["vansh-nagar"]
           },
           {
-            "group": "Getting Started",
-            "pages": ["introduction"]
+            "group": "Installation",
+            "pages": [
+              "installation/Install-Nextjs",
+              "installation/Install-Shadcn",
+              "installation/Install-Tailwind",
+              "installation/Install-Motion"
+            ]
           },
           {
             "group": "Navbar",
             "pages": ["navbar/animated"]
-          },
-          {
-            "group": "Shaders",
-            "pages": [
-              "shaders/basic-shaders",
-              "shaders/2d-shaders",
-              "shaders/3d-shaders",
-              "shaders/custom-effects"
-            ]
-          },
-          {
-            "group": "Animated SVG Lines",
-            "pages": [
-              "svg/line-animations",
-              "svg/path-drawing",
-              "svg/wave-lines",
-              "svg/scroll-animated-lines"
-            ]
-          },
-          {
-            "group": "UI Layout Components",
-            "pages": [
-              "ui/navbars",
-              "ui/footers",
-              "ui/feature-sections",
-              "ui/integration-sections",
-              "ui/heroes",
-              "ui/cards"
-            ]
-          },
-          {
-            "group": "Gradients",
-            "pages": [
-              "gradients/solid",
-              "gradients/radial",
-              "gradients/conic",
-              "gradients/multi-layer",
-              "gradients/modes"
-            ]
-          },
-          {
-            "group": "Animated Components (GSAP)",
-            "pages": [
-              "animations/gsap-basics",
-              "animations/gsap-cards",
-              "animations/gsap-text",
-              "animations/gsap-lottie",
-              "animations/gsap-hero"
-            ]
-          },
-          {
-            "group": "Grid & Border Patterns",
-            "pages": [
-              "patterns/grid",
-              "patterns/border",
-              "patterns/dashed",
-              "patterns/noise",
-              "patterns/retro"
-            ]
-          },
-          {
-            "group": "ThreeJS Components",
-            "pages": [
-              "three/introduction",
-              "three/cubes",
-              "three/particles",
-              "three/backgrounds",
-              "three/interactions"
-            ]
           }
         ]
       },
